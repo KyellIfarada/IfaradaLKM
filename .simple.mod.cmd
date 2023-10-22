@@ -1,0 +1,1 @@
+cmd_/home/lorenzo/CLionProjects/IfaradaLKM/simple.mod := printf '%s\n'   simple.o | awk '!x[$$0]++ { print("/home/lorenzo/CLionProjects/IfaradaLKM/"$$0) }' > /home/lorenzo/CLionProjects/IfaradaLKM/simple.mod
